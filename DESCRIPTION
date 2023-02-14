@@ -1,11 +1,16 @@
 Package: ftWrapper
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Provide Wrappers for Several Flextable Operations
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Hayden Atchley
+Maintainer: Hayden Atchley <atchley.sha@protonmail.com>
+Description: A collection of wrappers for operations in the 'flextable' package.
+   This is tailored to my specific use cases, which include in particular
+   displaying statistical analysis results. However, several other wrappers may
+   be included, and the package contents are likely to change over time.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.2.3
+Imports: 
+    flextable
